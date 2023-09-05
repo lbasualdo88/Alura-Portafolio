@@ -398,12 +398,11 @@ section.experience{
 }
 .experience__botao--demo{
     color: var(--Color-Claro, #ffffff);
-    font-family: Raleway;
+    font-family: var(--Fuente-Primaria);
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
-    
     border: none;
     background: var(--Color-Oscuro);
 }
