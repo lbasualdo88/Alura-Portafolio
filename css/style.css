@@ -36,7 +36,7 @@ a{
     color: var(--Color-Fonts);
 }
 .tudo {
-    max-width: 120rem; /*toma como maximo 1200px=120rem, si es menos se adacta solo*/
+    max-width: 1200rem; /*toma como maximo 1200px=120rem, si es menos se adacta solo*/
     margin: 0 auto 0 auto;
 }
 
