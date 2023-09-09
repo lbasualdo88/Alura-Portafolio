@@ -25,11 +25,11 @@
         </header>
         <nav>
             <ul class="menu__list">
-                <li class="menu__list__item"><a href="#sobre-mi">Sobre mi</a></li>
-                <li class="menu__list__item"><a href="#skills">Skills</a></li>
-                <li class="menu__list__item"><a href="#formacion">Formación</a></li>
-                <li class="menu__list__item"><a href="#xp">Proyectos</a></li>
-                <li class="menu__list__item menu__contacto"><a href="#contacto">lbasualdo88@gmail.com</a></li>
+                <li class="menu__list__item"><a class="sobreMi" href="#sobre-mi">Sobre mi</a></li>
+                <li class="menu__list__item"><a class="skills" href="#skills">Skills</a></li>
+                <li class="menu__list__item"><a class="formacion" href="#formacion">Formación</a></li>
+                <li class="menu__list__item"><a class="proyectos" href="#xp">Proyectos</a></li>
+                <li class="menu__list__item menu__contacto"><a class="contacto" href="#contacto">lbasualdo88@gmail.com</a></li>
             </ul>          
         </nav>
     </section>
@@ -43,10 +43,10 @@
                 <h3 class="title__subsection">Actualmente estoy participando del proyecto Oracle ONE en Alura Latam y este Portafolio es parte de uno de los desafios en mis estudios.</h3>
                 <ul class="title__network">
                      <!-- Pon los enlaces de tus redes sociales favoritas -->
-                    <li class="title__network__item"><a href="">Github <img src="img/flecha.png"> </a></li>
-                    <li class="title__network__item"><a href="">Linkedin <img src="img/flecha.png"></a></li>
-                    <li class="title__network__item"><a href="">Instagram <img src="img/flecha.png"></a></li>
-                    <li class="title__network__item"><a href="">Currículo <img src="img/flecha.png"></a></li>
+                    <li class="title__network__item"><a href="https://github.com/lbasualdo88">Github </a><img src="img/flecha.png"> </li>
+                    <li class="title__network__item"><a href="https://www.linkedin.com/in/leonardo-javier-basualdo-/">Linkedin</a> <img src="img/flecha.png"></li>
+                    <li class="title__network__item"><a href="https://www.instagram.com/javierleonardobasualdo/">Instagram</a> <img src="img/flecha.png"></li>
+                    <li class="title__network__item"><a href="Doc/Profile (2).pdf" download="">Currículo</a> <img src="img/flecha.png"></li>
                 </ul>
             </div>
         </div>
@@ -132,7 +132,7 @@
                 <div class="academic__courses__list">
                     <!-- Pon el logotipo de la institución de formación -->
                     <div class="div__img">
-                        <img class="academic__courses__item__img" src="img/alura.png">
+                        <a href="https://www.aluracursos.com/" target="_blank"><img class="academic__courses__item__img" src="img/alura.png"></a>
                     </div>                 
                     <h4 class="academic__courses__item__title">Front End Developer</h4>
                     <p class="academic__courses__item__subtitle">2023 - Alura</p>
@@ -140,7 +140,7 @@
                 <div class="academic__courses__list">
                     <!--Pon el logotipo de la institución de formación -->
                     <div class="div__img">
-                        <img class="academic__courses__item__img" src="img/Egg-logo.jpg">
+                        <a href="https://egg.live/es-ar/" target="_blank"><img class="academic__courses__item__img" src="img/Egg-logo.jpg"></a>
                     </div>                    
                     <h4 class="academic__courses__item__title">Full Stack Developer</h4>
                     <p class="academic__courses__item__subtitle">2023 - Egg Cooperation</p>
@@ -148,7 +148,7 @@
                 <div class="academic__courses__list">
                     <!-- Pon el logotipo de la institución de formación -->
                     <div class="div__img">
-                        <img class="academic__courses__item__img" src="img/udemy.png">
+                        <a href="https://www.udemy.com/" target="_blank"><img class="academic__courses__item__img" src="img/udemy.png"></a>
                     </div>                 
                     <h4 class="academic__courses__item__title">Developer Web Design</h4>
                     <p class="academic__courses__item__subtitle">En curso</p>
@@ -171,7 +171,21 @@
                             <span class="experience__demo"><a href="https://encriptadordemensaje.netlify.app/"><button class="experience__botao--demo">Ver demo</button></a></span>
                     </div>
             </div>
-        </div>  
+        </div>    
+        <div class="experiencie__box2">
+            <!-- Pon el logotipo/captura de pantalla de tu proyecto -->
+            <img class="experience__img" src="img/orgLAPTOP.png">
+            <div class="experience__info_2">
+                <h2 class="experience__title">Mi Organización</h2>
+                <h3 class="experience__text">Trabajo Practico Alura con React</h3>
+                    <div class="experience__description">
+                        <!-- Pon el enlace del proyecto en Github o GithubPages -->
+                            <span class="experience__repo"><a href="https://github.com/lbasualdo88/org"><button class="experiencia__botao--repo">Repositório</button></a></span>
+                            <span class="experience__demo"><a href="https://org-gilt-eta.vercel.app/"><button class="experience__botao--demo">Ver demo</button></a></span>
+                    </div>
+            </div>
+        </div>
+    </section>
         <!-- Sección de Contacto -->
         <section class="formcontato" id="contacto">
             <div  class="formcontato__contacto">
@@ -183,10 +197,25 @@
                     <h3 class="formcontato__subtext">¿Quieres contactarme?</h3>
                     <h3 class="formcontato__subtext">Complete el siguiente formulario y me pondré en contacto con usted lo antes posible. </h3>
                     <form class="formcontato__form" name="form">
-                        <input class="formcontato__input" type="text" name="nombre" placeholder="Nombre" >
-                        <input class="formcontato__input" type="email" name="email" placeholder="E-mail">
-                        <input class="formcontato__input" type="text" name="asunto" placeholder="Assunto">
-                        <textarea class="formcontato__textarea" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje"></textarea>
+                        <div class="campo">
+                            <input class="formcontato__input input-text input-invalido" type="text" name="nombre" placeholder="Nombre" required data-tipo="nombre">
+                            <span class="input-mensaje-error"></span>
+                        </div>
+                        <div class="campo">
+                            <input class="formcontato__input input-text input-invalido" type="email" name="email" placeholder="E-mail" required data-tipo="email">
+                            <span class="input-mensaje-error"></span>
+                        </div>
+                        <div class="campo">
+                            <input class="formcontato__input input-text input-invalido" type="text" name="asunto" placeholder="Asunto" required data-tipo="asunto">
+                            <span class="input-mensaje-error"></span>
+                        </div>
+                        <div class="campo">
+                            <textarea class="formcontato__textarea input-text input-invalido" rows="5" cols="40" id="mensagem" name="mensaje" placeholder="Mensaje" required data-tipo="textarea"></textarea>
+                            <span class="input-mensaje-error"></span>
+                        </div>
+                           
+                           
+            
                         <button type="submit" class="formcontato__botao">Enviar mensaje</button>
                     </form>
                 </div>
@@ -202,6 +231,7 @@
         </section>
     </div>
  <!-- Script del documento JavaScript -->
-<script src="validacion.js"></script>
+<script src="/js/validacion.js"></script>
+<script src="/js/scroll.js"></script>
 </body>
 </html>

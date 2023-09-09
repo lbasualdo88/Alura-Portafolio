@@ -67,11 +67,15 @@ section.menu{
 .menu__list{
     display: flex;
     align-items: center;
-    margin-right: 2rem;
-    
+    margin-right: 2rem;  
 }
 .menu__list__item{
-    margin-right: 2rem;    
+    margin-right: 2rem; 
+    padding: 1rem;   
+}
+.menu__list__item:hover{
+    border-radius: .5rem;
+    background-color: var(--Color-Medio);
 }
 .menu__list__item a{
     font-family: var(--Fuente-Primaria);
@@ -149,6 +153,9 @@ line-height: normal;
 .title__network__item a img{
     width: 24px;
     height: 24px;  
+}
+.title__network__item:hover{
+    transform: scale(1.2); 
 }
 
 /*Sección About*/
@@ -250,6 +257,9 @@ section.skills{
 .otro-height{
     height: 100px;
 }
+.skills__box:hover{
+    transform: scale(1.2);
+}
 /* Experiencia Académica*/
 
 section.academic{
@@ -273,8 +283,6 @@ section.academic{
 }
 .academic__courses{
     display: flex;
-    
-    
 }
 .academic__courses__box{
     display: flex;
@@ -297,6 +305,10 @@ section.academic{
     border-radius: 1rem;
     background-color: #ffffff;
 }
+.div__img:hover{
+    transform: rotate(5deg) scale(1.09) ; 
+}
+
 .academic__courses__item__img{
     max-width: 200px;
     max-height: 190px;
@@ -324,8 +336,10 @@ section.experience{
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 32px;
+   
+    
 }
+
 .experience__section__title{
     color: var(--Color-Fonts, #464646);
     text-align: center;
@@ -340,22 +354,47 @@ section.experience{
     width: 1136px;
     height: 406px;
     align-items: center;
-    gap: 16px;
+  
+   
+}
+.experiencie__box2{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 1136px;
+    height: 406px;
+    align-items: center;
+    
+   
 }
 .experience__img{
     width: 752px;
     flex-shrink: 0;
     align-self: stretch;
 }
+.experience__info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    flex: 1 0 0;
+}
+.experience__info_2{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 8px;
+    flex: 1 0 0;
+    margin-right: 0;
+}
 
 .experience__title{
     color: var(--Color-Fonts);
-    font-family: var(--Fuente-Primaria);
-    
+    font-family: var(--Fuente-Primaria);  
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    
 }
 .experience__text{
     color: var(--Color-Fonts);
@@ -367,8 +406,7 @@ section.experience{
 }
 .experience__description{
     display: flex;
-    width: 560px;
-    align-items: flex-start;
+    align-items: flex-end;
     gap: 16px;
 }
 .experience__repo{
@@ -407,11 +445,11 @@ section.experience{
     border: none;
     background: var(--Color-Oscuro);
 }
-.experiencia__repo:hover, 
+
 .experiencia__botao--repo:hover, 
-.experience__demo:hover,
 .experience__botao--demo:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 
 
@@ -421,7 +459,6 @@ section.experience{
 
 section.formcontato{
     display: flex;
-    width: 1200rem;
     padding: 64px;
     flex-direction: column;
     align-items: center;
@@ -474,8 +511,12 @@ section.formcontato{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    gap: 32px;
+    gap: 15px;
     align-self: stretch;
+}
+.campo{
+    display: contents;
+   
 }
 .formcontato__input{
     display: flex; 
@@ -517,14 +558,20 @@ section.formcontato{
 }
 .formcontato__botao:hover{
     cursor: pointer;  
-    padding: 16px;
+    transform: scale(1.09);
+}
+.input-mensaje-error {
+    margin-left: .2rem;
+    color: red;
+    font-size: 1.2rem;
+    font-weight: 550;
+    font-family: var(--Fuente-Primaria);
 }
 
 /*footeer*/
 
 section.footer{
     display: flex;
-    width: 1440px;
     padding: 32px;
     justify-content: center;
     align-items: center;
@@ -544,7 +591,7 @@ Utiliza las referencias de los breakpoints @media abajo */
 
 
 /*Tablet*/
-@media (min-width: 768px) {
+@media (max-width: 768px) {
 
 /* Menú */
 
@@ -561,16 +608,118 @@ Utiliza las referencias de los breakpoints @media abajo */
 }
 
 /*Mobile*/
-@media (min-width: 425px) {
+@media (max-width: 480px) {
 
 /*Menu*/
-
+section.menu{
+    display: flex;
+    flex-direction: column;
+}
+.menu__list{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2rem;  
+}
 /*Titulo*/
+section.title{
 
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+}
+.title__div{
+    display: flex;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    width: 100%;
+}
+.title__profile{
+    width: 98px;
+    height: 98px;
+}
+.title__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+    width: 100%;
+}
+.title__bio{
+    font-size: 22px;
+    font-weight: 700;
+}
+.title__subsection{
+    font-size: 14px;
+    font-weight: 400;
+    
+}
+.title__network{
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    padding-left: 0;
+    align-self: stretch;
+}
+.title__network__item{
+    align-self: stretch;
+}
+.title__network__item a{
+    font-size: 14px;
+    width: auto;
+    height: 16px;
+}
+.title__network__item img{
+    width: 16px;
+    height: 16px; 
+}
 /*Sección sobre mi*/
-
+section.about{
+    display: flex;
+    padding: 4rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+}
+.about__container{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+.about__title{
+    font-size: 22px;
+}
+.about__paragraph{
+    font-size: 14px;
+    width: 328px;
+    
+}
 /*Skills*/
+section.skills{
+    display: flex;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+}
+.skills__box{
 
+}
+.skills__img, .otro-height{
+    width: 8rem;
+    height:auto;
+}
 /*Hobbies*/
  
 /*Formación Académica*/
