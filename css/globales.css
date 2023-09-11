@@ -51,7 +51,7 @@ a{
     }
 }
 /*Mobile*/
-@media only screen and (min-width: 0px) {
+@media only screen and (min-width: 480px) {
     .tudo {
         width: 100%; 
         margin: 0 auto;

@@ -82,7 +82,7 @@
         gap: 1rem;
     }
 }
-@media (min-width: 0px) {
+@media (max-width: 480px) {
     section.formcontato{
         width: 480px;
         height: auto;
