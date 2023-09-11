@@ -1,0 +1,57 @@
+/*CSS Reset / Normalize*/
+/* Hemos disponibilizado el básico de reset de estilos. Si quieren, añadan más informaciones 
+en las secciones señaladas */
+
+:root{
+   --Color-Blanco: #ffffff
+   --Color-Claro: #F5F5F5;
+   --Color-Medio: #EAF2FD;
+   --Color-Oscuro: #2A7AE4;
+   --Color-Fonts: #464646;
+   --Color-Negro: #000000;
+
+   --Fuente-Primaria: 'Raleway', sans-serif;
+}
+
+/* Globales */
+
+html{
+    font-size: 62.5%; /*ayuda a que la medida rem se adapte a distintas pantallas */
+    box-sizing: border-box; /* Hack para box model *//*ayuda a que no se generen conflicto de medidas con el pading*/
+    scroll-snap-type: y mandatory;
+}
+*, *:before, *:after {box-sizing: inherit; } /*ayuda a que no se generen conflicto de medidas con el pading*/
+body{
+    font-size: 16px; /* 1rem = 10px */ /*ayuda a que la medida rem se adapte a distintas pantallas */
+    font-family: var(--Fuente-Primaria);
+    background-color: var(--Color-Claro);
+    background-image: linear-gradient(to top, var(--color6) 0%, var(--Color1) 100% );
+    box-sizing: border-box;
+}
+ol, ul,li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: var(--Color-Fonts);
+}
+.tudo {
+    max-width: 1200rem; /*toma como maximo 1200px=120rem, si es menos se adacta solo*/
+    margin: 0 auto 0 auto;
+}
+
+
+/*Tablet*/
+@media only screen and (max-width: 768px) {
+    .tudo{   
+    width: 768px;
+    box-sizing: border-box;
+    }
+}
+/*Mobile*/
+@media only screen and (max-width: 480px) {
+.tudo{
+    width: 480px;
+    box-sizing: border-box;
+}
+}
