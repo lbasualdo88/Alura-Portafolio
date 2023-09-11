@@ -67,7 +67,7 @@ section.experience{
     cursor: pointer;
     transform: scale(1.1);
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     section.experience{
         gap: 16px;
     }

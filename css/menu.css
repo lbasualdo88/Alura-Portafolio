@@ -36,7 +36,7 @@ section.menu{
 .menu__contacto a{
     font-weight: 800;
 }
-@media (max-width: 768px) {  
+@media (min-width: 768px) {  
 section.menu{
     align-self: stretch;
 }

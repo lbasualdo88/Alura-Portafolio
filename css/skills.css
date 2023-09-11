@@ -31,7 +31,7 @@ section.skills{
 .skills__box:hover{
     transform: scale(1.2);
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .skills__name{
         font-size: 12px;     
     }

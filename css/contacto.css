@@ -72,7 +72,7 @@ section.formcontato{
     font-weight: 550;
     font-family: var(--Fuente-Primaria);
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     .formcontato--esquerda{
         display: none;
     }

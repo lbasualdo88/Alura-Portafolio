@@ -43,7 +43,7 @@ section.academic{
     color: var(--Color-Fonts);
 }
 
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     section.academic{
         width: 100%;
     }

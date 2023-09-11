@@ -27,7 +27,7 @@ section.about{
     width: 140px;
     height: 52px;
 }
-@media (max-width: 768px) {
+@media (min-width: 768px) {
     section.about{
         padding: 32px;
         align-self: stretch;
