@@ -43,9 +43,15 @@ a{
 
 /*Tablet*/
 @media only screen and (max-width: 768px) {
-
+    .tudo {
+        width: 100%; 
+        margin: 0 auto;
+    }
 }
 /*Mobile*/
 @media only screen and (max-width: 480px) {
-
+    .tudo {
+        width: 100%; 
+        margin: 0 auto;
+    }
 }
