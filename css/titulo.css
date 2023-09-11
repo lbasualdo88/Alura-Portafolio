@@ -1,54 +1,56 @@
 /*Sección Title*/
-
-section.title{
-    margin: 2rem;
+@media (min-width: 900px) {
+   
+    section.title{
+        margin: 2rem;
+    }
+    .title__div{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        margin: auto;
+        width: 1136px;
+    }
+    .title__profile{
+        width: 368px;
+        height: 368px;
+        border-radius: 50%;
+    }
+    .title__container{
+        display: flex;
+        flex-direction: column;
+        width: 751px;
+    }
+    .title__bio{
+        color: var(--Color-Fonts);
+        font-family: var(--Fuente-Primaria);
+        font-size: 52px;
+    }
+    .title__subsection{
+        color: var(--Color-Fonts);
+        font-family: var(--Fuente-Primaria);
+        font-size: 22px;
+        font-weight: 400;
+    }
+    .title__network{
+        display: flex;
+        gap: 32px;
+    }
+    .title__network__item {
+        display: flex;
+        align-items: center;
+        gap: 4px;  
+    }
+    .title__network__item a img{
+        width: 24px;
+        height: 24px;  
+    }
+    .title__network__item:hover{
+        transform: scale(1.2); 
+    }
 }
-.title__div{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-between;
-    align-items: center;
-    margin: auto;
-    width: 1136px;
-}
-.title__profile{
-    width: 368px;
-    height: 368px;
-    border-radius: 50%;
-}
-.title__container{
-    display: flex;
-    flex-direction: column;
-    width: 751px;
-}
-.title__bio{
-    color: var(--Color-Fonts);
-    font-family: var(--Fuente-Primaria);
-    font-size: 52px;
-}
-.title__subsection{
-    color: var(--Color-Fonts);
-    font-family: var(--Fuente-Primaria);
-    font-size: 22px;
-    font-weight: 400;
-}
-.title__network{
-    display: flex;
-    gap: 32px;
-}
-.title__network__item {
-    display: flex;
-    align-items: center;
-    gap: 4px;  
-}
-.title__network__item a img{
-    width: 24px;
-    height: 24px;  
-}
-.title__network__item:hover{
-    transform: scale(1.2); 
-}
-@media (min-width: 768px) {
+@media (min-width: 480px) {
     section.title{
         padding: 32px;
     }
@@ -79,7 +81,7 @@ section.title{
         padding-left: 0;  
     }
 }
-@media (min-width: 480px) {
+@media (min-width: 0px) {
     .title__div{
         flex-direction: column;
         align-items: flex-start;      

@@ -1,37 +1,39 @@
 /*Sección Skills*/
-
-section.skills{
-    padding: 2rem 3rem;
+@media (min-width: 900px) {
+   
+    section.skills{
+        padding: 2rem 3rem;
+    }
+    .skills__title{
+        color: var(--Color-Fonts);
+        text-align: center;
+        font-family: var(--Fuente-Primaria);
+        font-size: 32px;
+    }
+    .skills__line{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 2rem;
+    }
+    .skills__box{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .skills__img{
+        max-height: 48px;
+        align-items: center;
+    }
+    .skills__name{
+        color: var(--Color-Fonts);
+        font-size: 14px;
+    }
+    .skills__box:hover{
+        transform: scale(1.2);
+    }
 }
-.skills__title{
-    color: var(--Color-Fonts);
-    text-align: center;
-    font-family: var(--Fuente-Primaria);
-    font-size: 32px;
-}
-.skills__line{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 2rem;
-}
-.skills__box{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.skills__img{
-    max-height: 48px;
-    align-items: center;
-}
-.skills__name{
-    color: var(--Color-Fonts);
-    font-size: 14px;
-}
-.skills__box:hover{
-    transform: scale(1.2);
-}
-@media (min-width: 768px) {
+@media (min-width: 0px) {
     .skills__name{
         font-size: 12px;     
     }

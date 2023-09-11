@@ -35,21 +35,23 @@ a{
     text-decoration: none;
     color: var(--Color-Fonts);
 }
-.tudo {
-    max-width: 1200rem; /*toma como maximo 1200px=120rem, si es menos se adacta solo*/
-    margin: 0 auto;
+
+/*Latop*/
+@media (min-width: 900px) {
+    .tudo {
+        max-width: 1200rem; /*toma como maximo 1200px=120rem, si es menos se adacta solo*/
+        margin: 0 auto;
+    } 
 }
-
-
 /*Tablet*/
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 480px) {
     .tudo {
         width: 100%; 
         margin: 0 auto;
     }
 }
 /*Mobile*/
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 0px) {
     .tudo {
         width: 100%; 
         margin: 0 auto;
