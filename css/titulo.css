@@ -19,7 +19,9 @@
     .title__container{
         display: flex;
         flex-direction: column;
+        /*
         width: 751px;
+        */
     }
     .title__bio{
         color: var(--Color-Fonts);
@@ -83,7 +85,8 @@
 @media (max-width: 480px) {
     .title__div{
         flex-direction: column;
-        align-items: flex-start;      
+        align-items: flex-start; 
+        max-width: 100%;     
     }
     .title__profile{
         margin-bottom: 1rem;
@@ -92,9 +95,11 @@
     }
     .title__container{
         gap: 16px;
+        max-width: 100%;
     }
     .title__bio{
         margin-bottom: 0;
+        font-size: 22px;
     }
     .title__subsection{
         font-size: 14px; 
