@@ -65,6 +65,7 @@
 }
 @media (max-width: 480px) {
     section.academic{
+        max-width: 100%;
         padding: 3rem 2rem;
     }
     .academic__courses__box{
