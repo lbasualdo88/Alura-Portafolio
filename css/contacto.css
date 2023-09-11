@@ -96,6 +96,7 @@ section.formcontato{
         align-self: stretch;
         max-width: 100%;
         gap: 10px;
+        padding: 2.5rem;
     }
     .formcontato--esquerda{
         display: none;
@@ -116,7 +117,7 @@ section.formcontato{
     .formcontato__form{
         overflow: hidden;
     }
-    .formcontato__input{
+    .formcontato__input, .formcontato__textarea{
         max-width: 100%;
     }
     
