@@ -62,7 +62,7 @@ section.academic{
         
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     section.academic{
         padding: 3rem 2rem;
     }

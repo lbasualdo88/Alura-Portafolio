@@ -41,7 +41,7 @@ section.about{
         font-size: 14px;
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     section.about{
         padding: 4rem;
     }

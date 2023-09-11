@@ -79,7 +79,7 @@ section.title{
         padding-left: 0;  
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 576px) {
     .title__div{
         flex-direction: column;
         align-items: flex-start;      
