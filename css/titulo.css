@@ -87,8 +87,8 @@
     }
     .title__profile{
         margin-bottom: 1rem;
-        width: 98px;
-        height: 98px;
+        max-width: 98px;
+        max-height: 98px;
     }
     .title__container{
         gap: 16px;
@@ -111,7 +111,7 @@
         font-size: 14px;
     }
     .title__network__item img{
-        width: 16px;
-        height: 16px; 
+        max-width: 16px;
+        max-height: 16px; 
     }
 }
