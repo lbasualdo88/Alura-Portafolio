@@ -16,7 +16,7 @@ section.footer{
     font-weight: 500;
     line-height: normal;
 }
-@media (max-width: 576px) {
+@media (min-width: 480px) {
     .footer{
         max-width: 100%;
         gap: 10px;

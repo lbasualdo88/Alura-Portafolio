@@ -92,7 +92,7 @@ section.experience{
         margin-left: 2rem;
     }
 }
-@media (max-width: 576px) {
+@media (min-width: 480px) {
     .experience{
         max-width: 100%;
         height: auto;
