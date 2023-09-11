@@ -9,7 +9,6 @@ section.about{
 }
 .about__container{
     display: flex;
-    width: 1000px;
     flex-direction: column;
     gap: 16px;
 }
