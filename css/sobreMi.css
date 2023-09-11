@@ -1,5 +1,5 @@
 /*Sección About*/
-@media (min-width: 900px) {
+
     section.about{
         display: flex;
         padding: 64px;
@@ -27,7 +27,7 @@
         width: 140px;
         height: 52px;
     }
-}
+
 @media (min-width: 768px) {
     section.about{
         padding: 32px;

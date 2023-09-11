@@ -1,5 +1,5 @@
 /*Sección Skills*/
-@media (min-width: 900px) {
+
    
     section.skills{
         padding: 2rem 3rem;
@@ -32,7 +32,7 @@
     .skills__box:hover{
         transform: scale(1.2);
     }
-}
+
 @media (min-width: 768px) {
     .skills__name{
         font-size: 12px;     

@@ -1,5 +1,5 @@
 /*Contacto*/
-@media (min-width: 900px) {
+
    
     section.formcontato{
         display: flex;
@@ -73,7 +73,7 @@
         font-weight: 550;
         font-family: var(--Fuente-Primaria);
     }
-}
+
 @media (min-width: 768px) {
     .formcontato--esquerda{
         display: none;

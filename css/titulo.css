@@ -1,6 +1,5 @@
 /*Sección Title*/
-@media (min-width: 900px) {
-   
+
     section.title{
         margin: 2rem;
     }
@@ -49,7 +48,7 @@
     .title__network__item:hover{
         transform: scale(1.2); 
     }
-}
+
 @media (min-width: 768px) {
     section.title{
         padding: 32px;

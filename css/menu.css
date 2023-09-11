@@ -1,6 +1,5 @@
 /*Sección Menu*/
-@media (min-width: 900px) {
-   
+
     section.menu{
         display: flex;
     }
@@ -36,7 +35,7 @@
     .menu__contacto a{
         font-weight: 800;
     }
-}
+
 @media (min-width: 768px) {  
 section.menu{
     align-self: stretch;

@@ -1,6 +1,5 @@
 /* Experiencia Académica*/
-@media (min-width: 900px) {
-   
+
     section.academic{
         display: flex;
         padding: 20px;
@@ -43,7 +42,7 @@
     .academic__courses__item__subtitle{
         color: var(--Color-Fonts);
     }
-}
+
 
 @media (min-width: 768px) {
     section.academic{

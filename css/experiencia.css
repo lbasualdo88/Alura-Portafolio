@@ -1,5 +1,5 @@
 /* experiencia*/
-@media (min-width: 900px) {
+
    
     section.experience{
         display: flex;
@@ -68,7 +68,7 @@
         cursor: pointer;
         transform: scale(1.1);
     }
-}
+
 @media (min-width: 768px) {
     section.experience{
         gap: 16px;
