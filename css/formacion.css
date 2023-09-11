@@ -44,7 +44,7 @@
     }
 
 
-@media (min-width: 768px) {
+    @media (min-width: 576px) and (max-width: 900px) {
     section.academic{
         width: 100%;
     }

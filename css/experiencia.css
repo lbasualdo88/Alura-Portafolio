@@ -69,7 +69,7 @@
         transform: scale(1.1);
     }
 
-@media (min-width: 768px) {
+    @media (min-width: 576px) and (max-width: 900px) {
     section.experience{
         gap: 16px;
     }

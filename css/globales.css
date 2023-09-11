@@ -44,7 +44,7 @@ a{
     } 
 
 /*Tablet*/
-@media only screen and (min-width: 768px) {
+@media (min-width: 576px) and (max-width: 900px) {
     .tudo {
         width: 100%; 
         margin: 0 auto;
