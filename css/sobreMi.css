@@ -36,7 +36,8 @@ section.about{
         align-self: stretch;
     }
     .about__paragraph{
-        width: min(100%, 704px);
+        /*
+        width: min(100%, 704px);*/
         font-size: 14px;
     }
 }
