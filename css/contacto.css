@@ -84,7 +84,7 @@
 }
 @media (max-width: 480px) {
     section.formcontato{
-        width: 480px;
+        width: auto;
         height: auto;
         display: flex;
         padding-top: 0;
