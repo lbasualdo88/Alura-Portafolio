@@ -37,7 +37,7 @@
         font-weight: 800;
     }
 }
-@media (min-width: 480px) {  
+@media (min-width: 768px) {  
 section.menu{
     align-self: stretch;
 }
