@@ -63,7 +63,7 @@
         
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     section.academic{
         max-width: 100%;
         padding: 3rem 2rem;

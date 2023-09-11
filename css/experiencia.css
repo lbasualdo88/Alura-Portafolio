@@ -94,7 +94,7 @@
         margin-left: 2rem;
     }
 }
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .experience{
         max-width: 100%;
         height: auto;

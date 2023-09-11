@@ -51,9 +51,9 @@ a{
     }
 }
 /*Mobile*/
-@media (max-width: 480px) {
+@media (max-width: 575px) {
     .tudo {
-        max-width: 100%; 
+        max-width: 1200rem; 
         margin: 0 auto;
     }
 }
