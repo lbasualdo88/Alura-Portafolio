@@ -19,9 +19,6 @@
     .title__container{
         display: flex;
         flex-direction: column;
-        /*
-        width: 751px;
-        */
     }
     .title__bio{
         color: var(--Color-Fonts);
@@ -107,7 +104,8 @@
     }
     .title__network{
         margin-top: 1rem;
-        padding-left: 0;  
+        padding-left: 0; 
+        gap: .8rem; 
     }
     .title__network__item{
         align-self: stretch;
