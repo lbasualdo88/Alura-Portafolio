@@ -36,22 +36,16 @@ a{
     color: var(--Color-Fonts);
 }
 .tudo {
-    max-width: min(90%, 120rem); /*toma como maximo 1200px=120rem, si es menos se adacta solo*/
+    max-width: 1200rem; /*toma como maximo 1200px=120rem, si es menos se adacta solo*/
     margin: 0 auto;
 }
 
 
 /*Tablet*/
 @media only screen and (max-width: 768px) {
-    .tudo{   
-    max-width: 768px;
-    box-sizing: border-box;
-    }
+
 }
 /*Mobile*/
 @media only screen and (max-width: 480px) {
-.tudo{
-    max-width: 480px;
-    box-sizing: border-box;
-}
+
 }
